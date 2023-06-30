@@ -32,6 +32,7 @@ search_text.addEventListener('input', function(){
             append_json(search_data)
         }
         else{
+            clean.style.visibility = 'hidden'
             data = custom_data
             append_json(data)
         }
