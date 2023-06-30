@@ -1,0 +1,10 @@
+{
+  "homepage": "http//TA-Toshi.io/lab_test",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+    "predeploy": "rm -rf build && npm run build",
+    "deploy": "gh-pages -d build" 
+  }
+}
