@@ -29,6 +29,7 @@ search_text.addEventListener('input', function(){
         if (value != '') {
             let search_data = search_table(value, custom_data)
             data = search_data
+            state.page = 1
             append_json(search_data)
         }
         else{
